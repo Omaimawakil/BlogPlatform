@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://blogplatform-wxxw.onrender.com",
+  baseURL: "https://blogplatform-wxxw.onrender.com/api",
 });
+
 
 export default API;
